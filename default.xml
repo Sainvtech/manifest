@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="origin"
+          fetch="https://example.com/repo/" />
+
+  <default revision="main"
+           remote="origin"
+           sync-j="4" />
+
+  <project path="test1" name="/home/invlko-045/AOSP/test1.git" />
+  <project path="test2" name="/home/invlko-045/AOSP/test2.git" />
+  <!-- Add more projects as needed -->
+</manifest>
